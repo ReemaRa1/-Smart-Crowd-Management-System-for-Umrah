@@ -1,0 +1,29 @@
+def find_naive_paths(graph, start, end, path=[], cost=0):
+    path = path + [start]
+    if start == end:
+        return [(path, cost)]
+    if start not in graph:
+        return []
+    
+    paths = []
+    for neighbor, weight in graph[start].items():
+        if neighbor not in path:
+            new_paths = find_naive_paths(graph, neighbor, end, path, cost + weight)
+            for p in new_paths:
+                paths.append(p)
+    return paths
+
+# Graph data from the document [cite: 28, 29, 30, 31, 32]
+haram_graph = {
+    'A': {'B': 4, 'C': 2},
+    'B': {'D': 5, 'C': 1},
+    'C': {'D': 3},
+    'D': {}
+}
+
+# Execution
+all_possible_routes = find_naive_paths(haram_graph, 'A', 'D')
+optimal_path, min_total_cost = min(all_possible_routes, key=lambda x: x[1])
+
+print(f"Optimal Path: {' -> '.join(optimal_path)}")
+print(f"Total Cost: {min_total_cost}")
