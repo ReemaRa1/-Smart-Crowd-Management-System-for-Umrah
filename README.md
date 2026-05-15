@@ -9,23 +9,3 @@
 |Norah alotaibi | 431215230 |
 |Hala al-anizi | 442201241 |
 ---
-
-## Project Objective
-The goal of this project is to implement, analyze, and compare two different algorithms in terms of:
--Minimize congestion inside the Haram
--Reduce travel time between locations
--Apply algorithm design and analysis concepts to a real-world problem
----
-
-## Repository Structure
-
-```text id="8m1xy7"
-/src
-   https://github.com/ReemaRa1/-Smart-Crowd-Management-System-for-Umrah/blob/main/Naive%20Algorithm
-https://github.com/ReemaRa1/-Smart-Crowd-Management-System-for-Umrah/blob/main/A%20Search%20Algorithm
-
-/report
-
-   [‏Smart Crowd Management System for Umrah Report.pdf](https://github.com/user-attachments/files/27812458/Smart.Crowd.Management.System.for.Umrah.Report.pdf)
-
-
