@@ -12,10 +12,9 @@
 
 ## Project Objective
 The goal of this project is to implement, analyze, and compare two different algorithms in terms of:
-- Time Complexity
-- Space Complexity
-- Performance
-
+-Minimize congestion inside the Haram
+-Reduce travel time between locations
+-Apply algorithm design and analysis concepts to a real-world problem
 ---
 
 ## Repository Structure
@@ -26,4 +25,6 @@ The goal of this project is to implement, analyze, and compare two different alg
    Naive algorithm
 
 /report
-    final-report.pdf
+[‏Smart Crowd Management System for Umrah Report.pdf](https://github.com/user-attachments/files/27812391/Smart.Crowd.Management.System.for.Umrah.Report.pdf)
+
+   
