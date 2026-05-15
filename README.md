@@ -21,10 +21,11 @@ The goal of this project is to implement, analyze, and compare two different alg
 
 ```text id="8m1xy7"
 /src
-   A search algorithm
-   Naive algorithm
+   https://github.com/ReemaRa1/-Smart-Crowd-Management-System-for-Umrah/blob/main/Naive%20Algorithm
+https://github.com/ReemaRa1/-Smart-Crowd-Management-System-for-Umrah/blob/main/A%20Search%20Algorithm
 
 /report
-[‏Smart Crowd Management System for Umrah Report.pdf](https://github.com/user-attachments/files/27812391/Smart.Crowd.Management.System.for.Umrah.Report.pdf)
 
-   
+   [‏Smart Crowd Management System for Umrah Report.pdf](https://github.com/user-attachments/files/27812458/Smart.Crowd.Management.System.for.Umrah.Report.pdf)
+
+
